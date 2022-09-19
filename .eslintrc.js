@@ -1,8 +1,8 @@
 module.exports = {
   root: true,
-  extends: ['react-app', 'plugin:prettier/recommended'],
+  extends: ['react-app'],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['prettier'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
@@ -11,16 +11,6 @@ module.exports = {
         'no-shadow': 'off',
         'no-undef': 'off',
       },
-    },
-  ],
-  'prettier/prettier': [
-    'error',
-    {
-      printWidth: 120,
-      tabWidth: 2,
-      semi: false,
-      singleQuote: true,
-      trailingComma: 'all',
     },
   ],
 }

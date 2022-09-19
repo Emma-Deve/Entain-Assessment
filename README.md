@@ -31,7 +31,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### tech skills
 
-TypeScript, React, Redux, SASS, Axios, Eslint
+TypeScript, React, Redux, SASS, Jest, Axios, Eslint
 
 ### modules
 
@@ -46,7 +46,6 @@ TypeScript, React, Redux, SASS, Axios, Eslint
       src ── ├── views
              ├     └── Main
              ├
-             ├
              ├── components
              ├        ├── Header
              ├        ├── Footer
@@ -54,7 +53,7 @@ TypeScript, React, Redux, SASS, Axios, Eslint
              ├        ├── Loading
              ├        ├── RaceItem
              ├        ├── RaceList
-             ├        └── index        collect all the above components
+             ├        └── index      collect all the above components
              ├
              ├── store
              ├      ├── hooks
@@ -74,10 +73,13 @@ TypeScript, React, Redux, SASS, Axios, Eslint
              └── utils
                     ├── getCategoryId
                     ├── getCountDown
+                    ├── getCountDown.test
                     └── getTimeRemaining
 
 
 ```
+
+### on live
 
 ### video
 
