@@ -79,7 +79,8 @@ TypeScript, React, Redux, SASS, Axios, Eslint
 
 ```
 
-### screenshot
+### video
 
-<img src='./src/assets/screenshot.jpg'/>
-<img src='./src/assets/screenshot-categoryid.jpg'/>
+<video width="800" height="300" controls>
+  <source src="https://entain-assessment-emmali.s3.ap-southeast-2.amazonaws.com/static/assets/video.mp4" type="video/mp4">
+</video>
