@@ -81,6 +81,4 @@ TypeScript, React, Redux, SASS, Axios, Eslint
 
 ### video
 
-<video width="800" height="300" controls>
-  <source src="https://entain-assessment-emmali.s3.ap-southeast-2.amazonaws.com/static/assets/video.mp4" type="video/mp4">
-</video>
+https://entain-assessment-emmali.s3.ap-southeast-2.amazonaws.com/video.mp4
