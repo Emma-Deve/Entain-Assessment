@@ -1,0 +1,9 @@
+@import "../../styles/variables";
+.loading {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  background-color: $lightBackgroundColor;
+  color: $linkColor;
+}

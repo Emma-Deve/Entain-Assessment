@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  background-color: $lightBackgroundColor;
+}
+
+.left {
+  flex: 1;
+  padding:20px;
+  font-weight: bold;
+  color: $darkTextColor;
+  font-size: 28px;
+  text-transform: capitalize
+  
+};
+.right {
+  font-size: 28px;
+  text-transform: capitalize;
+  margin:auto;
+  padding: 0 20px;
+}

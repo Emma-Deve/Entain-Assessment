@@ -1,0 +1,40 @@
+@import "../../styles/variables";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  background-color: $lightBackgroundColor;
+}
+.left {
+  flex: 1;
+  padding:20px;
+  font-weight: bold;
+  color: $darkTextColor;
+  font-size: 40px;
+  text-transform: capitalize
+  
+};
+.right {
+  display: flex;
+}
+nav {
+  display: flex ;
+}
+.navItem{
+  padding: 20px;
+  height: 100%;
+  font-weight: bold;
+}
+.navActive{
+  padding:20px;
+  background: $linkColor;
+  color: white;
+  font-weight: bold;
+}
+.navItem:hover, .navActive:hover{
+  cursor: pointer;
+  background-color: $linkHoverColor;
+  color: white;
+}

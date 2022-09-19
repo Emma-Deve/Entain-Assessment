@@ -1,0 +1,25 @@
+// Colors
+$lightBackgroundColor: rgb(225, 221, 221) !default;
+$darkBackgroundColor: rgb(218, 219, 201) !default;
+$textColor: #968a8a !default;
+$lightTextColor: #636c72 !default;
+$darkTextColor: #3f1803 !default;
+$linkColor: #e40000 !default;
+$linkHoverColor: #990000 !default;
+
+// Devices
+$deviceXsMin: 0 !default;
+$deviceXsMax: 576px !default;
+$deviceSmMin: 577px !default;
+$deviceSmMax: 768px !default;
+$deviceMdMin: 769px !default;
+$deviceMdMax: 992px !default;
+$deviceLgMin: 993px !default;
+$deviceLgMax: 1200px !default;
+$deviceXlMin: 1201px !default;
+$deviceXlMax: 1440px !default;
+
+// Type
+$font-family-base: Ciutadella, -apple-system, BlinkMacSystemFont, Segoe UI,
+  Roboto, Helvetica Neue, Arial, sans-serif;
+$font-size-base: 1rem !default;
