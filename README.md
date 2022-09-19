@@ -29,18 +29,57 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### tech skills
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+TypeScript, React, Redux, SASS, Axios, Eslint
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### modules
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```shell
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+             ┌── api
+             ├     ├── index  request methods to fetch data from APIs
+             ├     ├── path
+             ├     └── request  custom packaged function with axios by adding interceptors
+             ├
+      src ── ├── views
+             ├     └── Main
+             ├
+             ├
+             ├── components
+             ├        ├── Header
+             ├        ├── Footer
+             ├        ├── Container
+             ├        ├── Loading
+             ├        ├── RaceItem
+             ├        ├── RaceList
+             ├        └── index        collect all the above components
+             ├
+             ├── store
+             ├      ├── hooks
+             ├      ├── store
+             ├      └── features
+             ├            └── categorySlice
+             ├
+             ├── styles
+             ├      ├── _type
+             ├      ├── _variables
+             ├      └── global
+             ├
+             ├── interfaces
+             ├      ├── categories
+             ├      └── nextRaces
+             ├
+             └── utils
+                    ├── getCategoryId
+                    ├── getCountDown
+                    └── getTimeRemaining
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+
+### screenshot
+
+<img src='./src/assets/screenshot.jpg'/>
+<img src='./src/assets/screenshot-categoryid.jpg'/>
