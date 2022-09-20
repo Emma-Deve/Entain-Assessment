@@ -1,33 +1,42 @@
-# Getting Started with Create React App
+# Entain Assessment
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
-## Available Scripts
+## 1. Task & Requirement
 
-In the project directory, you can run:
+- Create a single page application that displays 'Next to go’ races using our API.
+- A user should see 5 races at all times, and they should be sorted by time ascending. Race should disappear from the list after 1 min past the start time (​advertised_start).
+- User should see meeting name (​meeting_name), race number (​race_number) and countdown timer that indicates the start of the race.
+- User should be able to toggle race categories to view races belonging to only the selected category.
 
-### `npm start`
+## 2. Start App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 2.1 Start apps locally
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+$ npm start
+```
 
-### `npm test`
+This will start development servers for:
+
+- React SPA - [http://localhost:3000](http://localhost:3000)
+
+### 2.2 npm test
+
+```
+$ npm test
+```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 3. Browse the app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Visit [http://localhost:3000](http://localhost:3000) in your browser. You should see a homepage similar to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![main](./src/assets/screenshot.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 4. App Skills & Structure
 
 ### tech skills
 
@@ -79,8 +88,10 @@ TypeScript, React, Redux, SASS, Jest, Axios, Eslint
 
 ```
 
-### on live
+### on live (AWS)
 
-### video
+https://entain-assessment-emmali.s3.ap-southeast-2.amazonaws.com/index.html
+
+### video (locally)
 
 https://entain-assessment-emmali.s3.ap-southeast-2.amazonaws.com/video.mp4
